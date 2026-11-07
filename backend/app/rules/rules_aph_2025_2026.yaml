@@ -1,0 +1,341 @@
+ruleset_version: 2025-2026.v1
+academic_year: 2026-2027
+handbook_reference: AICTE Approval Process Handbook (APH) 2024-2027
+status: ACTIVE
+effective_from: '2024-04-01'
+effective_to: '2027-03-31'
+categories:
+- code: INCREASE_INTAKE
+  title: Increase in Sanctioned Intake / Addition of New Course
+  description: An established technical institution requests an increase in total
+    student intake capacity or introduction of a new technical course or division
+    in an existing programme.
+  academic_year: 2026-2027
+  official_source: AICTE Approval Process Handbook (APH) 2024-2027, Chapter II, Clause
+    2.1 & 2.2
+  is_confirmed: true
+  eligibility_conditions:
+  - Valid NBA accreditation for at least 50% of the eligible courses, or NIRF ranking
+    within the top 150 technical institutions.
+  - The institution must have completed at least one graduating batch of students.
+  - Contiguous registered campus land must satisfy the minimum prescribed land norm
+    for the proposed aggregate intake.
+  - Clean regulatory compliance record with no unresolved penalties or unaddressed
+    deficiency notices from the preceding academic year.
+  mandatory_documents:
+  - code: LAND_TITLE_DEED
+    name: Land Registered Title Deed & Revenue Conversion Order
+    official_clause: APH Chapter I, Clause 1.6
+    expiry_check_required: false
+    required_fields: Khasra/Survey Number, Area in Acres, Contiguity certificate,
+      Registered owner name
+    is_confirmed: true
+  - code: BUILDING_PLAN
+    name: Approved Building Plan & Built-up Area Certificate
+    official_clause: APH Chapter I, Clause 1.8 & Appendix 4
+    expiry_check_required: true
+    required_fields: Total built-up instructional, administrative, and amenities area
+      (sq. meters)
+    is_confirmed: true
+  - code: FIRE_SAFETY_NOC
+    name: Fire and Life Safety Certificate (NOC)
+    official_clause: APH Chapter I, Clause 2.4.1
+    expiry_check_required: true
+    required_fields: Certificate number, Issuing Fire Service Directorate, Tenure
+      validity period
+    is_confirmed: true
+  - code: AFFILIATION_LETTER
+    name: University Affiliation Order & Sanction Letter
+    official_clause: APH Chapter II, Clause 2.1.3
+    expiry_check_required: true
+    required_fields: Affiliating University Name, Sanctioned branches, Approved intake
+      count for AY 2026-2027
+    is_confirmed: true
+  - code: FACULTY_ROSTER
+    name: Faculty Cadre Roster & Qualifications Sheet
+    official_clause: APH Chapter VII, Clause 7.1
+    expiry_check_required: false
+    required_fields: Principal/Director qualification, Cadre ratio (Prof/Assoc/Asst),
+      Pay scale compliance
+    is_confirmed: true
+  - code: BALANCE_SHEET
+    name: Audited Annual Financial Balance Sheet & Accounts
+    official_clause: APH Chapter I, Clause 1.10
+    expiry_check_required: true
+    required_fields: CA Registration Number, Chartered Accountant Signature, Operational
+      reserve funds, FDR details
+    is_confirmed: true
+  conditional_documents:
+  - code: MINORITY_CERTIFICATE
+    name: Religious / Linguistic Minority Status Certificate
+    condition: Applicable only if the institution claims minority quota or minority
+      establishment status.
+    official_clause: APH Chapter I, Clause 1.14
+    is_confirmed: true
+  - code: PWD_BARRIER_FREE_CERTIFICATE
+    name: Barrier-Free Built Environment & Lift Safety Certificate
+    condition: Mandatory for multi-storey academic blocks housing disabled students.
+    official_clause: APH Chapter I, Clause 1.9
+    is_confirmed: true
+  - code: STATE_GOVT_NOC
+    name: State Government Permission / NOC
+    condition: Required if change of site, closure, or change of trust is involved
+      alongside expansion.
+    official_clause: APH Chapter II, Clause 2.9
+    is_confirmed: true
+  optional_documents:
+  - code: LAB_INFRASTRUCTURE_PHOTO
+    name: Laboratory Equipment & Campus Infrastructure Photographs
+    purpose: Visual evidence of specialized computing laboratories and advanced technical
+      machinery.
+    is_confirmed: true
+  - code: BOARD_RESOLUTION
+    name: Governing Board Resolution for Approval Application
+    purpose: Internal resolution of the sponsoring Trust/Society approving expansion
+      and intake funds.
+    is_confirmed: true
+- code: NEW_INSTITUTE
+  title: Establishment of New Technical Institution
+  description: A registered Trust, Society, or Section 8 Company applies for a formal
+    Letter of Approval (LoA) to start a new technical campus.
+  academic_year: 2026-2027
+  official_source: AICTE Approval Process Handbook (APH) 2024-2027, Chapter I
+  is_confirmed: true
+  eligibility_conditions:
+  - Registered Society, Trust, or Section 8 company with technical education among
+    primary stated objectives.
+  - Clear, unencumbered title to contiguous land in the name of the Trust/Society
+    (minimum 7.5 acres rural, 2.5 acres urban).
+  - Dedicated corpus fund (Joint FDR) created in favor of the Regional Officer, AICTE.
+  - State Government NOC and affiliating university in-principle consent letter.
+  mandatory_documents:
+  - code: LAND_TITLE_DEED
+    name: Land Registered Title Deed & Revenue Conversion Order
+    official_clause: APH Chapter I, Clause 1.6
+    expiry_check_required: false
+    required_fields: Land registered in Trust name, contiguous area in acres, conversion
+      certificate
+    is_confirmed: true
+  - code: BUILDING_PLAN
+    name: Approved Building Plan & Built-up Area Certificate
+    official_clause: APH Chapter I, Clause 1.8
+    expiry_check_required: true
+    required_fields: Architect certification, built-up instructional and administrative
+      square meters
+    is_confirmed: true
+  - code: FIRE_SAFETY_NOC
+    name: Fire and Life Safety Certificate (NOC)
+    official_clause: APH Chapter I, Clause 2.4.1
+    expiry_check_required: true
+    required_fields: Issuing fire directorate, certificate number, validity period
+    is_confirmed: true
+  - code: AFFILIATION_LETTER
+    name: University In-Principle Affiliation Consent Order
+    official_clause: APH Chapter I, Clause 1.4
+    expiry_check_required: true
+    required_fields: University registrar signature, proposed sanctioned programmes
+      and courses
+    is_confirmed: true
+  - code: BALANCE_SHEET
+    name: Audited Accounts & Trust Corpus Fund / Joint FDR Proof
+    official_clause: APH Chapter I, Clause 1.10
+    expiry_check_required: true
+    required_fields: Corpus fund amount, FDR receipt with AICTE Regional Officer lien,
+      CA certificate
+    is_confirmed: true
+  conditional_documents:
+  - code: STATE_GOVT_NOC
+    name: State Higher/Technical Education Department NOC
+    condition: Mandatory for new institutions unless the relevant State Government
+      has officially exempted NOC requirement.
+    official_clause: APH Chapter I, Clause 1.5
+    is_confirmed: true
+  - code: PWD_BARRIER_FREE_CERTIFICATE
+    name: Barrier-Free Built Environment Certificate
+    condition: Mandatory for all newly constructed academic blocks.
+    official_clause: APH Chapter I, Clause 1.9
+    is_confirmed: true
+  optional_documents:
+  - code: LAB_INFRASTRUCTURE_PHOTO
+    name: Campus Site & Construction Progress Photographs
+    purpose: Visual confirmation of physical campus readiness and exterior building
+      completion.
+    is_confirmed: true
+- code: EOA_REGULAR
+  title: Extension of Approval (EoA) Regular
+  description: An existing approved technical institution seeks continuation of its
+    annual approval for existing sanctioned courses and student intake.
+  academic_year: 2026-2027
+  official_source: AICTE Approval Process Handbook (APH) 2024-2027, Chapter I, Clause
+    1.1
+  is_confirmed: true
+  eligibility_conditions:
+  - Institution holds valid AICTE approval from the preceding academic year without
+    debarment or withdrawal.
+  - Regular submission of annual compliance affidavits and faculty roster.
+  - Timely payment of applicable Technical Education Regulatory (TER) charges.
+  - Submission of annual Fire Safety renewal and affiliation continuation orders.
+  mandatory_documents:
+  - code: FIRE_SAFETY_NOC
+    name: Fire and Life Safety Certificate (Annual Renewal)
+    official_clause: APH Chapter I, Clause 2.4.1
+    expiry_check_required: true
+    required_fields: Certificate number, validity end date, competent fire authority
+      seal
+    is_confirmed: true
+  - code: AFFILIATION_LETTER
+    name: University Affiliation Continuation Order
+    official_clause: APH Chapter I, Clause 1.4
+    expiry_check_required: true
+    required_fields: Affiliated courses and seats approved by University for AY 2026-2027
+    is_confirmed: true
+  - code: FACULTY_ROSTER
+    name: Annual Faculty Cadre Roster & Qualifications Sheet
+    official_clause: APH Chapter VII, Clause 7.1
+    expiry_check_required: false
+    required_fields: Teacher-to-student cadre ratio, AICTE faculty IDs, biometric
+      attendance declaration
+    is_confirmed: true
+  conditional_documents:
+  - code: OCCUPANCY_CERTIFICATE
+    name: Municipal Completion / Occupancy Certificate
+    condition: Required if any new building, additional floor, or instructional space
+      was constructed during the previous year.
+    official_clause: APH Chapter I, Clause 1.7
+    is_confirmed: true
+  optional_documents:
+  - code: BALANCE_SHEET
+    name: Audited Financial Balance Sheet
+    purpose: Annual financial transparency and fee utilization record.
+    is_confirmed: true
+rules:
+- rule_code: APH-2026-MANDATORY-DOCS-01
+  version: '1.0'
+  name: Mandatory Document Completeness
+  category_codes:
+  - INCREASE_INTAKE
+  - NEW_INSTITUTE
+  - EOA_REGULAR
+  severity: CRITICAL
+  is_mandatory: true
+  clause: APH Chapter I, Section 1.4 (Mandatory Documentation Checklist)
+  is_confirmed: true
+  description: Every statutory document required for the designated application category
+    must be uploaded and valid.
+  recommended_action: Issue formal deficiency query listing missing mandatory document
+    categories.
+  evaluation_method: MANDATORY_DOCUMENTS
+- rule_code: APH-2026-NOC-FIRE-02
+  version: '1.0'
+  name: Fire and Life Safety Certificate Validity
+  category_codes:
+  - INCREASE_INTAKE
+  - NEW_INSTITUTE
+  - EOA_REGULAR
+  severity: HIGH
+  is_mandatory: true
+  clause: APH Chapter I, Clause 2.4.1 (Life & Fire Safety)
+  is_confirmed: true
+  description: The Fire and Life Safety NOC issued by the competent state/municipal
+    authority must remain unexpired as of the scrutiny date.
+  recommended_action: Require applicant to submit a renewed Fire Safety Certificate
+    with a valid unexpired period.
+  evaluation_method: FIRE_SAFETY_EXPIRY
+- rule_code: APH-2026-LAND-03
+  version: '1.0'
+  name: Minimum Campus Land Norm
+  category_codes:
+  - INCREASE_INTAKE
+  - NEW_INSTITUTE
+  severity: CRITICAL
+  is_mandatory: true
+  clause: APH Chapter I, Table 1.1 (Land Norms for Technical Institutions)
+  is_confirmed: true
+  min_land_acres_rural: 7.5
+  min_land_acres_urban: 2.5
+  description: Institutions offering UG Technical courses must possess minimum contiguous
+    registered land (7.50 acres for Rural; 2.50 acres for Urban).
+  recommended_action: Verify revenue title deed or municipal land conversion certificate
+    to confirm land requirement.
+  evaluation_method: CAMPUS_LAND_NORM
+- rule_code: APH-2026-INTAKE-04
+  version: '1.0'
+  name: Sanctioned Intake Baseline Reconciliation
+  category_codes:
+  - INCREASE_INTAKE
+  severity: HIGH
+  is_mandatory: true
+  clause: APH Chapter II, Clause 2.1 & Clause 4.2 (Approved Intake Expansion)
+  is_confirmed: true
+  description: The declared existing intake must match the approved intake recorded
+    in the baseline EoA of the preceding Academic Year.
+  recommended_action: Reconcile with official AICTE past approvals. If unapproved,
+    request deficiency justification.
+  evaluation_method: INTAKE_BASELINE_RECONCILIATION
+- rule_code: APH-2026-FSR-05
+  version: '1.0'
+  name: Faculty-to-Student Cadre Ratio
+  category_codes:
+  - INCREASE_INTAKE
+  - EOA_REGULAR
+  severity: HIGH
+  is_mandatory: false
+  clause: APH Chapter VII, Clause 7.1 (Cadre Ratio & FSR Norms) [PENDING OFFICIAL
+    HANDBOOK MAPPING]
+  is_confirmed: false
+  max_students_per_faculty: 20
+  description: Engineering institutions must maintain a minimum Faculty-to-Student
+    Ratio (FSR) of 1:15 or 1:20 based on approved intake.
+  recommended_action: Inspect faculty roster and salary disbursements to verify sufficient
+    sanctioned teaching positions.
+  evaluation_method: FACULTY_STUDENT_RATIO
+- rule_code: APH-2026-NAME-06
+  version: '1.0'
+  name: Institution Title Consistency
+  category_codes:
+  - INCREASE_INTAKE
+  - NEW_INSTITUTE
+  - EOA_REGULAR
+  severity: MEDIUM
+  is_mandatory: false
+  clause: APH Chapter I, General Requirements
+  is_confirmed: true
+  min_fuzzy_match_ratio: 75.0
+  description: Institutional title on supporting land title, affiliation order, and
+    certificates must match registered AICTE title within acceptable token variation.
+  recommended_action: Verify whether a formal Name Change approval gazette exists,
+    or flag for scrutiny officer review.
+  evaluation_method: INSTITUTION_NAME_CONSISTENCY
+- rule_code: APH-2026-XDOC-07
+  version: '1.0'
+  name: Cross-Document Entity Reconciliation
+  category_codes:
+  - INCREASE_INTAKE
+  - NEW_INSTITUTE
+  - EOA_REGULAR
+  severity: HIGH
+  is_mandatory: true
+  evaluation_method: CROSS_DOCUMENT_CONSISTENCY
+  clause: APH Chapter I & II, Cross-Verification Standards
+  is_confirmed: true
+  description: Key institutional parameters (land area, intake, location, and references)
+    must reconcile consistently across all uploaded statutory documents.
+  recommended_action: Compare conflicting attachments in document viewer and request
+    deficiency explanation.
+- rule_code: APH-2026-INFRA-08
+  version: '1.0'
+  name: Infrastructure Evidence & Visual Quality Review
+  category_codes:
+  - INCREASE_INTAKE
+  - NEW_INSTITUTE
+  severity: MEDIUM
+  is_mandatory: false
+  evaluation_method: INFRASTRUCTURE_PHOTO_REVIEW
+  clause: APH Appendix 4, Infrastructure & Laboratory Norms [PENDING OFFICIAL HANDBOOK
+    MAPPING]
+  is_confirmed: false
+  description: Laboratory and campus evidence photos must satisfy minimum digital
+    quality thresholds (600x400) and are subject to physical Expert Visit Committee
+    (EVC) verification.
+  recommended_action: Request higher-resolution photos or recommend on-site inspection
+    by Expert Visit Committee.

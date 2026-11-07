@@ -1,0 +1,52 @@
+{
+  "evaluation_timestamp": "2026-10-23T17:01:13Z",
+  "dataset_metadata": {
+    "dataset_type": "SYNTHETIC_GROUND_TRUTH_FIXTURES",
+    "total_test_cases": 5,
+    "benchmark_institution_id": "BENCH-1792774797",
+    "ruleset_version": "2025-2026.v1"
+  },
+  "defect_detection_metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "true_positives": 5,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_negatives": 0,
+    "detected_rules": [
+      "APH-INTEGRITY-DUP-01",
+      "APH-2026-INTAKE-04",
+      "APH-2026-NOC-FIRE-02",
+      "DETECTOR-PHASH-02",
+      "APH-2026-MANDATORY-DOCS-01"
+    ],
+    "expected_rules": [
+      "APH-INTEGRITY-DUP-01",
+      "APH-2026-INTAKE-04",
+      "APH-2026-NOC-FIRE-02",
+      "DETECTOR-PHASH-02",
+      "APH-2026-MANDATORY-DOCS-01"
+    ]
+  },
+  "subsystem_accuracies": {
+    "cross_record_discrepancy_accuracy": 1.0,
+    "duplicate_detection_accuracy": 1.0,
+    "perceptual_hash_reuse_accuracy": 1.0,
+    "document_expiry_detection_accuracy": 1.0,
+    "missing_document_detection_accuracy": 1.0,
+    "authority_verification_resolution_rate": 1
+  },
+  "performance_and_latency": {
+    "iterations_measured": 5,
+    "average_scrutiny_latency_ms": 2802.1,
+    "p50_latency_ms": 1575.12,
+    "p95_latency_ms": 7479.26,
+    "alert_generation_latency_ms": 336.25
+  },
+  "manual_baseline_comparison": {
+    "manual_scrutiny_est_minutes": 45.0,
+    "verifyai_automated_scrutiny_seconds": 2.8,
+    "throughput_acceleration_factor": 963.6
+  }
+}
